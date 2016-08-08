@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{32D0602F-1E6F-084D-B2AD-E9FAF79A17F0}</ProjectGuid>
+    <ProjectGuid>{3A2CBCE6-47C9-20D9-AEE6-CDEEB10A99CA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,25 +46,13 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\ActiveStateToggler.cs" />
-     <Compile Include="Assets\Scripts\ActivityLogButton.cs" />
      <Compile Include="Assets\Scripts\ApplicationManager.cs" />
      <Compile Include="Assets\Scripts\ChangeColor.cs" />
-     <Compile Include="Assets\Scripts\ContactInfoButton.cs" />
      <Compile Include="Assets\Scripts\DragMe.cs" />
      <Compile Include="Assets\Scripts\DragPanel.cs" />
      <Compile Include="Assets\Scripts\DropMe.cs" />
-     <Compile Include="Assets\Scripts\MyActivityLog.cs" />
-     <Compile Include="Assets\Scripts\MyButton.cs" />
-     <Compile Include="Assets\Scripts\MyButton2.cs" />
-     <Compile Include="Assets\Scripts\MyContactInfo.cs" />
-     <Compile Include="Assets\Scripts\MyFPUI.cs" />
-     <Compile Include="Assets\Scripts\MyProfilePanel.cs" />
-     <Compile Include="Assets\Scripts\MyPurchaseOrder.cs" />
-     <Compile Include="Assets\Scripts\MySPUI.cs" />
-     <Compile Include="Assets\Scripts\OkButton.cs" />
+     <Compile Include="Assets\Scripts\Launch.cs" />
      <Compile Include="Assets\Scripts\PanelManager.cs" />
-     <Compile Include="Assets\Scripts\PurchaseActivityButton.cs" />
-     <Compile Include="Assets\Scripts\PurchaseContactButton.cs" />
      <Compile Include="Assets\Scripts\ResizePanel.cs" />
      <Compile Include="Assets\Scripts\ScrollDetailTexture.cs" />
      <Compile Include="Assets\Scripts\ShowSliderValue.cs" />
@@ -111,6 +99,7 @@
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
      <None Include="Assets\link.xml" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\PBC_Camera3.xml" />
      <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
      <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
@@ -122,8 +111,8 @@
      <None Include="Assets\Materials\UI-Default-No-Alpha.shader" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
-     <None Include="Assets\StreamingAssets\QCAR\Prototype.xml" />
      <None Include="Assets\license_3rdpartynotice.txt" />
+     <None Include="Assets\StreamingAssets\QCAR\Prototype.xml" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
@@ -132,7 +121,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions">
- <HintPath>/Users/masam/Desktop/Unity_Project/Prototype1/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
+ <HintPath>/Users/masam/Develop/MADissertation/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
